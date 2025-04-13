@@ -4,7 +4,7 @@ import pdb
 
 x_guider2 = 648 * u.arcsec
 y_guider2 = 442.2 * u.arcsec
-angle_guider2 = 320
+angle_guider2 = 310
 
 x_guider1 = 318 * u.arcsec
 y_guider1 = 240 * u.arcsec
@@ -256,11 +256,11 @@ if __name__ == "__main__":
     ifs2others(ra_ifs, dec_ifs, 'feige34.reg')
     
 
-    ra_gnew = '10:40:05.5619'
-    dec_gnew = '+43:15:04.255'
-    ra_target = '10:39:36.7644'
-    dec_target = '+43:06:08.896'
-    offset4(ra_gnew, dec_gnew, ra_target, dec_target)
+    # ra_gnew = '10:40:05.5619'
+    # dec_gnew = '+43:15:04.255'
+    # ra_target = '10:39:36.7644'
+    # dec_target = '+43:06:08.896'
+    # offset4(ra_gnew, dec_gnew, ra_target, dec_target)
     
     
 
